@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3957ac8-dae3-4d2c-82eb-c2577c96f987" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RecognitionServiceAPI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/serializers.py" afterDir="false" />
+    <list default="true" id="e3957ac8-dae3-4d2c-82eb-c2577c96f987" name="Changes" comment="Создание API для сервиса распознавания текста">
+      <change afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/recognitionFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecognitionAPI/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecognitionAPI/recognition/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecognitionAPI/recognition/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecognitionAPI/recognition/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecognitionAPI/recognition/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -39,13 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wert2\PycharmProjects\RecognitionServiceAPI\RecognitionAPI\recognition" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -62,6 +68,15 @@
       <option name="presentableId" value="Default" />
       <updated>1713892779412</updated>
     </task>
+    <task id="LOCAL-00001" summary="Создание API для сервиса распознавания текста">
+      <option name="closed" value="true" />
+      <created>1714665469655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714665469655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создание API для сервиса распознавания текста" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание API для сервиса распознавания текста" />
   </component>
 </project>
