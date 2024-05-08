@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3957ac8-dae3-4d2c-82eb-c2577c96f987" name="Changes" comment="Создание API для сервиса распознавания текста">
-      <change afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/recognitionFunction.py" afterDir="false" />
+    <list default="true" id="e3957ac8-dae3-4d2c-82eb-c2577c96f987" name="Changes" comment="Реализация функционала по распознаванию изображения">
+      <change afterPath="$PROJECT_DIR$/RecognitionAPI/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RecognitionAPI/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecognitionAPI/RecognitionAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/RecognitionAPI/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RecognitionAPI/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecognitionAPI/recognition/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RecognitionAPI/recognition/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RecognitionAPI/recognition/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RecognitionAPI/recognition/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecognitionAPI/recognition/views.py" afterDir="false" />
@@ -39,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wert2\PycharmProjects\RecognitionServiceAPI\RecognitionAPI\recognition" />
@@ -76,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714665469655</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Реализация функционала по распознаванию изображения">
+      <option name="closed" value="true" />
+      <created>1714846889568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714846889568</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,7 +93,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -92,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создание API для сервиса распознавания текста" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание API для сервиса распознавания текста" />
+    <MESSAGE value="Реализация функционала по распознаванию изображения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализация функционала по распознаванию изображения" />
   </component>
 </project>

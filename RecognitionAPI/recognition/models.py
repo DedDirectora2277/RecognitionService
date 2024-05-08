@@ -8,7 +8,6 @@ from django.dispatch import receiver
 
 class ImageToRecognize(models.Model):
     id = models.CharField(primary_key=True, max_length=40)
-    user_id = models.CharField(max_length=40)
     image = models.ImageField(upload_to='temp', default='default_image.jpg')
 
 
@@ -19,6 +18,5 @@ def delete_image(sender, instance, **kwargs):
 
 
 class RecognizedText(models.Model):
-    user_id = models.CharField(max_length=40)
     image_id = models.CharField(max_length=40)
     text = models.TextField(blank=True)

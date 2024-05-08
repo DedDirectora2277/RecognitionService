@@ -6,10 +6,10 @@ from recognition.models import RecognizedText, ImageToRecognize
 class RecognizedSerializer(serializers.ModelSerializer):
     class Meta:
         model = RecognizedText
-        fields = ('image_id', 'text', 'user_id')
+        fields = ('image_id', 'text')
 
 
 class ImageSerializer(serializers.ModelSerializer):
     class Meta:
         model = ImageToRecognize
-        fields = ('id', 'user_id', 'image')
+        fields = ('id', 'image')

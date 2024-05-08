@@ -19,8 +19,7 @@ class RecognitionAPIView(APIView):
 
             text = extract_text_from_image(image_instance.image)
 
-            text_instance = RecognizedText.objects.create(image_id=image_instance.id, text=text, user_id=image_instance.
-                                                          user_id)
+            text_instance = RecognizedText.objects.create(image_id=image_instance.id, text=text)
 
             image_instance.delete()
             text_serializer = RecognizedSerializer(text_instance)
